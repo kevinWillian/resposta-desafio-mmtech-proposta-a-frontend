@@ -101,7 +101,7 @@ function ContactsList(props){
     }
 
     if(formData.name){
-      let regex = /^[a-zA-Z ]+$/;
+      let regex = /^[a-zA-ZÀ-ÿ\s]+$/;
       if(!regex.test(formData.name)){
         setIsNameBadForm(true);
         badFormation = true;
@@ -269,7 +269,7 @@ function App() {
     }
 
     if(formData.name){
-      let regex = /^[a-zA-Z ]+$/;
+      let regex = /^[a-zA-ZÀ-ÿ\s]+$/;
       if(!regex.test(formData.name)){
         setIsNameBadForm(true);
         badFormation = true;
