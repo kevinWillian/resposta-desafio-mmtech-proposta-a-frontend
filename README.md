@@ -10,4 +10,4 @@ Para rodar o FrontEnd clone o reposotório e com npm installado rode `npm instal
 
  ### Considerações
 
- Para rodar no celular edit o arquivo "/services/api" para usar o ip da sua máquina na rede local ao invés de "localhost"
+ Para rodar no celular edite o arquivo "/services/api" para usar o ip da sua máquina na rede local ao invés de "localhost"
